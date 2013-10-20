@@ -17,6 +17,7 @@ function append_to_path {
 prepend_to_path "$HOME/.zsh/bin"
 prepend_to_path "$HOME/.bin"
 prepend_to_path "$HOME/tools/bin"
+prepend_to_path "$HOME/bin"
 
 append_to_path  "/opt/bin"
 
