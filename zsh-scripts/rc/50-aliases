@@ -112,4 +112,4 @@ function search() {
         grep -Ri "$1" --line-number --before-context=3 --after-context=3 --color=always --include="$2" --exclude=".*" "$search_path"/*
 }
 
-_alias_if_not_exists help run-help
+# _alias_if_not_exists help run-help
